@@ -11,7 +11,51 @@
     <modules>
         <module>applikation-archetype</module>
         <module>bibliothek-archetype</module>
-        <module>swe-assembly</module>
+        <module>systemelement-assembly</module>
     </modules>
+
+    <name>Datenverteiler-Maven-Build</name>
+    <description>Fasst Maven-Plug-ins für den Build von Datenverteiler-Projekte zusammen.</description>
+    <url>https://github.com/datenverteiler/datenverteiler-maven-build</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>2.4</version>
+                    <configuration>
+                        <ignoreEOLStyle>true</ignoreEOLStyle>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <developers>
+        <developer>
+            <id>falkoschumann</id>
+            <name>Falko Schumann</name>
+            <email>falko.schumann@muspellheim.de</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/datenverteiler/datenverteiler-maven-build.git</connection>
+        <developerConnection>scm:git:https://github.com/datenverteiler/datenverteiler-maven-build.git</developerConnection>
+        <url>https://github.com/datenverteiler/datenverteiler-maven-build</url>
+    </scm>
 
 </project>

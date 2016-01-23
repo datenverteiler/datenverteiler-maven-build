@@ -4,19 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.datenverteiler</groupId>
+    <parent>
+        <groupId>com.github.datenverteiler</groupId>
+        <artifactId>datenverteiler-maven-build</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
     <artifactId>applikation-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <name>Applikation-Archetype</name>
     <description>Dieser Archetype erzeugt den Prototyp einer Applikation.</description>
-    <url>https://github.com/datenverteiler/applikation-archetype</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
 
     <build>
         <extensions>
@@ -26,39 +24,6 @@
                 <version>2.4</version>
             </extension>
         </extensions>
-
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-archetype-plugin</artifactId>
-                    <version>2.4</version>
-                    <configuration>
-                        <ignoreEOLStyle>true</ignoreEOLStyle>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
     </build>
-
-    <developers>
-        <developer>
-            <id>falkoschumann</id>
-            <name>Falko Schumann</name>
-            <email>falko.schumann@muspellheim.de</email>
-        </developer>
-    </developers>
-
-    <licenses>
-        <license>
-            <name>MIT License</name>
-            <url>http://opensource.org/licenses/MIT</url>
-        </license>
-    </licenses>
-
-    <scm>
-        <connection>scm:git:https://github.com/datenverteiler/datenverteiler-maven-build.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/datenverteiler-maven-build.git</developerConnection>
-        <url>https://github.com/datenverteiler/datenverteiler-maven-build</url>
-    </scm>
 
 </project>

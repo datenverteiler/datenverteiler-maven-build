@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>${groupId}</groupId>
-    <artifactId>${artifactId}</artifactId>
-    <version>${version}</version>
+    <groupId>archetype.it</groupId>
+    <artifactId>basic</artifactId>
+    <version>0.1-SNAPSHOT</version>
 
-    <name>Applikation</name>
+    <name>Bibliothek</name>
     <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
 
     <properties>
@@ -18,8 +18,8 @@
 
     <licenses>
         <license>
-            <name>GNU General Public License v3.0</name>
-            <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+            <name>GNU Lesser General Public License v3.0</name>
+            <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
         </license>
     </licenses>
 
@@ -34,20 +34,15 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/datenverteiler/${artifactId}.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/${artifactId}.git</developerConnection>
-        <url>https://github.com/datenverteiler/${artifactId}</url>
+        <connection>scm:git:https://github.com/datenverteiler/basic.git</connection>
+        <developerConnection>scm:git:https://github.com/datenverteiler/basic.git</developerConnection>
+        <url>https://github.com/datenverteiler/basic</url>
     </scm>
 
     <dependencies>
         <dependency>
             <groupId>de.bsvrz.dav</groupId>
             <artifactId>de.bsvrz.dav.daf</artifactId>
-            <version>${kernsoftware.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>de.bsvrz.sys</groupId>
-            <artifactId>de.bsvrz.sys.funclib.application</artifactId>
             <version>${kernsoftware.version}</version>
         </dependency>
         <dependency>

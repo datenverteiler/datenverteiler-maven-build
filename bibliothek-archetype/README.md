@@ -1,7 +1,7 @@
-Applikation-Archetype
-=====================
+Bibliothek-Archetype
+====================
 
-Dieser Archetype erzeugt den Prototyp einer Applikation.
+Dieser Archetype erzeugt den Prototyp einer Bibliothek.
 
 
 ---

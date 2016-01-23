@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.datenverteiler</groupId>
-    <artifactId>applikation-archetype</artifactId>
+    <artifactId>bibliothek-archetype</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
-    <name>Applikation-Archetype</name>
-    <description>Dieser Archetype erzeugt den Prototyp einer Applikation.</description>
+    <name>Bibliothek-Archetype</name>
+    <description>Dieser Archetype erzeugt den Prototyp einer Bibliothek.</description>
     <url>https://github.com/datenverteiler/applikation-archetype</url>
 
     <properties>

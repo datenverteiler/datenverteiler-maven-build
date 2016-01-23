@@ -8,7 +8,7 @@
     <version>0.1-SNAPSHOT</version>
 
     <name>Applikation</name>
-    <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</description>
+    <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -7,7 +7,7 @@
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
 
-    <name>Applikation</name>
+    <name>Bibliothek</name>
     <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
 
     <properties>
@@ -18,8 +18,8 @@
 
     <licenses>
         <license>
-            <name>GNU General Public License v3.0</name>
-            <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+            <name>GNU Lesser General Public License v3.0</name>
+            <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
         </license>
     </licenses>
 
@@ -43,11 +43,6 @@
         <dependency>
             <groupId>de.bsvrz.dav</groupId>
             <artifactId>de.bsvrz.dav.daf</artifactId>
-            <version>${kernsoftware.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>de.bsvrz.sys</groupId>
-            <artifactId>de.bsvrz.sys.funclib.application</artifactId>
             <version>${kernsoftware.version}</version>
         </dependency>
         <dependency>

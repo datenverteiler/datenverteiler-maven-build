@@ -7,8 +7,8 @@
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
 
-    <name>Bibliothek</name>
-    <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
+    <name>${bibliothekName}</name>
+    <description>${bibliothekKurzInfo}</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

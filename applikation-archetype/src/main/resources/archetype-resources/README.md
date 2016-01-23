@@ -1,4 +1,4 @@
-Applikation
-===========
+${applikationName}
+==================
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+${applikationKurzInfo}

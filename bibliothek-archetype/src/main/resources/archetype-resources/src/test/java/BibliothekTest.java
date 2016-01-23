@@ -2,7 +2,7 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 /*
- * Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
+ * ${bibliothekKurzInfo}
  * Copyright (C) 2016  Datenverteiler <https://github.com/datenverteiler>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 /**
- * Unittest für Bibliothek.
+ * Unittest für ${bibliothekName}.
  *
  * @author Datenverteiler, Falko Schumann
  */

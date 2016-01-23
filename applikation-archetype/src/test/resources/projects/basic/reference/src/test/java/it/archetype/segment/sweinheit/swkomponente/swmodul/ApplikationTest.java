@@ -16,31 +16,20 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package it.archetype.segment.sweinheit.komponente.modul;
+package it.archetype.segment.sweinheit.swkomponente.swmodul;
 
-import de.bsvrz.dav.daf.main.*;
-import de.bsvrz.sys.funclib.application.*;
-import de.bsvrz.sys.funclib.commandLineArgs.*;
+import static org.junit.Assert.*;
 
 /**
- * Applikation.
+ * Unittest für Applikation.
  *
  * @author Datenverteiler, Falko Schumann
  */
-public class Applikation implements StandardApplication {
+public class ApplikationTest {
 
-    public static void main(String args[]) {
-        StandardApplicationRunner.run(new Applikation(), args);
-    }
-
-    public void parseArguments(ArgumentList argumentList) throws Exception {
+    public void testApplikation() {
         // TODO
-    }
-
-    public void initialize(ClientDavInterface connection) throws Exception {
-        // TODO
-
-        System.out.println("Hallo Datenverteiler!");
+        assertTrue(true);
     }
 
 }

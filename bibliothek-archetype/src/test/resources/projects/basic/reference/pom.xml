@@ -5,7 +5,7 @@
 
     <groupId>it.archetype.segment</groupId>
     <artifactId>it.archetype.segment.sweinheit</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
 
     <name>Bibliothek</name>
     <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
@@ -34,9 +34,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/datenverteiler/it.archetype.segment.sweinheit.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/it.archetype.segment.sweinheit.git</developerConnection>
-        <url>https://github.com/datenverteiler/it.archetype.segment.sweinheit</url>
+        <connection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</developerConnection>
+        <url>https://github.com/datenverteiler/${project.artifactId}</url>
     </scm>
 
     <dependencies>

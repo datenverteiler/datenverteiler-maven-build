@@ -16,17 +16,29 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package it.archetype.segment.sweinheit.komponente.modul;
+package it.archetype.segment.sweinheit.swkomponente.swmodul;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
 
 /**
- * Bibliothek.
+ * Unittest für Bibliothek.
  *
  * @author Datenverteiler, Falko Schumann
  */
-public class Bibliothek {
+public class BibliothekTest {
 
-    public String begruessung() {
-        return "Hallo Datenverteiler!";
+    private Bibliothek bibliothek;
+
+    @Before
+    public void setUp() {
+        bibliothek = new Bibliothek();
+    }
+
+    public void testBegruessung() {
+        // TODO
+        assertEquals("Hallo Datenverteiler!", bibliothek.begruessung());
     }
 
 }

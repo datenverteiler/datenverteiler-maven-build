@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <kernsoftware.version>3.6.5</kernsoftware.version>
+        <kernsoftware.version>${kernsoftwareVersion}</kernsoftware.version>
     </properties>
 
     <licenses>
@@ -34,9 +34,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/datenverteiler/${artifactId}.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/${artifactId}.git</developerConnection>
-        <url>https://github.com/datenverteiler/${artifactId}</url>
+        <connection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</developerConnection>
+        <url>https://github.com/datenverteiler/${project.artifactId}</url>
     </scm>
 
     <dependencies>

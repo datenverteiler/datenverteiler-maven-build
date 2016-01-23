@@ -1,0 +1,28 @@
+<component xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.3"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/component/1.1.3 http://maven.apache.org/xsd/component-1.1.3.xsd">
+    <fileSets>
+        <fileSet>
+            <directory>${project.build.directory}/site</directory>
+            <outputDirectory>docs</outputDirectory>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>README.md</source>
+            <destName>${project.artifactId}-Build-Report.txt</destName>
+        </file>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
+            <destName>${project.artifactId}.jar</destName>
+        </file>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}-javadoc.jar</source>
+            <destName>${project.artifactId}-doc-api.zip</destName>
+        </file>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}-sources.jar</source>
+            <destName>${project.artifactId}-src.zip</destName>
+        </file>
+    </files>
+</component>

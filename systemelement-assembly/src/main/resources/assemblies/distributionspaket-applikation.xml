@@ -5,52 +5,14 @@
     <formats>
         <format>zip</format>
     </formats>
-    <fileSets>
-        <fileSet>
-            <directory>${project.build.directory}/site</directory>
-            <outputDirectory>docs</outputDirectory>
-        </fileSet>
-    </fileSets>
     <files>
-        <file>
-            <source>README.md</source>
-            <destName>${project.artifactId}-Build-Report.txt</destName>
-        </file>
         <file>
             <source>LICENSE.txt</source>
             <destName>${project.artifactId}-GPL-lizenz.txt</destName>
         </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
-            <destName>${project.artifactId}.jar</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-javadoc.jar</source>
-            <destName>${project.artifactId}-doc-api.zip</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-sources.jar</source>
-            <destName>${project.artifactId}-src.zip</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-tests.jar</source>
-            <destName>${project.artifactId}-test.jar</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-test-javadoc.jar</source>
-            <destName>${project.artifactId}-test-doc-api.zip</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-test-sources.jar</source>
-            <destName>${project.artifactId}-test-src.zip</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
-            <destName>${project.artifactId}.jar</destName>
-        </file>
-        <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-javadoc.jar</source>
-            <destName>${project.artifactId}-doc-api.zip</destName>
-        </file>
     </files>
+    <componentDescriptors>
+        <componentDescriptor>assemblies/distributionspaket-bin.xml</componentDescriptor>
+        <componentDescriptor>assemblies/distributionspaket-test.xml</componentDescriptor>
+    </componentDescriptors>
 </assembly>

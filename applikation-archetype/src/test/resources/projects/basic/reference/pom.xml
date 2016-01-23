@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>archetype.it</groupId>
-    <artifactId>basic</artifactId>
+    <groupId>it.archetype.segment</groupId>
+    <artifactId>it.archetype.segment.sweinheit</artifactId>
     <version>0.1-SNAPSHOT</version>
 
     <name>Applikation</name>
@@ -34,9 +34,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/datenverteiler/basic.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/basic.git</developerConnection>
-        <url>https://github.com/datenverteiler/basic</url>
+        <connection>scm:git:https://github.com/datenverteiler/it.archetype.segment.sweinheit.git</connection>
+        <developerConnection>scm:git:https://github.com/datenverteiler/it.archetype.segment.sweinheit.git</developerConnection>
+        <url>https://github.com/datenverteiler/it.archetype.segment.sweinheit</url>
     </scm>
 
     <dependencies>

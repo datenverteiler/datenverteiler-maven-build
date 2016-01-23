@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package it.pkg;
+package it.archetype.segment.sweinheit.komponente.modul;
 
 import de.bsvrz.dav.daf.main.*;
 import de.bsvrz.sys.funclib.application.*;

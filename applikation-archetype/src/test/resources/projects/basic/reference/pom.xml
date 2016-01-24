@@ -84,6 +84,28 @@
                             <goal>test-jar</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>runtime-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>runtime-jar</classifier>
+                            <excludes>
+                                <exclude>**/*</exclude>
+                            </excludes>
+                            <archive>
+                                <manifest>
+                                    <addClasspath>true</addClasspath>
+                                    <mainClass>it.archetype.segment.sweinheit.swkomponente.swmodul.Applikation</mainClass>
+                                    <classpathPrefix>lib/</classpathPrefix>
+                                </manifest>
+                                <manifestEntries>
+                                    <Class-Path>${project.artifactId}.jar</Class-Path>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
@@ -136,6 +158,18 @@
                                 <descriptorRef>distributionspaket</descriptorRef>
                             </descriptorRefs>
                         </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
                     </execution>
                 </executions>
             </plugin>

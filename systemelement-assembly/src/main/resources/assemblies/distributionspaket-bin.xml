@@ -6,6 +6,10 @@
             <directory>${project.build.directory}/site</directory>
             <outputDirectory>docs</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/dependency</directory>
+            <outputDirectory>lib</outputDirectory>
+        </fileSet>
     </fileSets>
     <files>
         <file>
@@ -19,6 +23,10 @@
         <file>
             <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
             <destName>${project.artifactId}.jar</destName>
+        </file>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}-runtime-jar.jar</source>
+            <destName>${project.artifactId}-runtime.jar</destName>
         </file>
         <file>
             <source>${project.build.directory}/${project.artifactId}-${project.version}-javadoc.jar</source>

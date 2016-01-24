@@ -79,6 +79,28 @@
                             <goal>test-jar</goal>
                         </goals>
                     </execution>
+                    <execution>
+                        <id>runtime-jar</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <classifier>runtime-jar</classifier>
+                            <excludes>
+                                <exclude>**/*</exclude>
+                            </excludes>
+                            <archive>
+                                <manifest>
+                                    <addClasspath>true</addClasspath>
+                                    <classpathPrefix>lib/</classpathPrefix>
+                                </manifest>
+                                <manifestEntries>
+                                    <Class-Path>${project.artifactId}.jar</Class-Path>
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+
+                    </execution>
                 </executions>
             </plugin>
             <plugin>

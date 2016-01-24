@@ -16,6 +16,7 @@
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
         <kernsoftware.version>3.6.5</kernsoftware.version>
         <distributionspaket.status>Beta</distributionspaket.status>
+        <distributionspaket.standDatum>${maven.build.timestamp}</distributionspaket.standDatum>
         <distributionspaket.lizenz>GPLv3</distributionspaket.lizenz>
     </properties>
 
@@ -129,7 +130,7 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
-                            <finalName>SWE_${project.artifactId}_${distributionspaket.status}_V${project.version}_D${maven.build.timestamp}</finalName>
+                            <finalName>SWE_${project.artifactId}_${distributionspaket.status}_V${project.version}_D${distributionspaket.standDatum}</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptorRefs>
                                 <descriptorRef>distributionspaket</descriptorRef>

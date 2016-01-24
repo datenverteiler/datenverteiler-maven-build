@@ -96,12 +96,14 @@
                             </excludes>
                             <archive>
                                 <manifest>
+                                    <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                                     <addClasspath>true</addClasspath>
                                     <mainClass>it.archetype.segment.sweinheit.swkomponente.swmodul.Applikation</mainClass>
-                                    <classpathPrefix>lib/</classpathPrefix>
+                                    <classpathLayoutType>custom</classpathLayoutType>
+                                    <customClasspathLayout>../${artifact.artifactId}/${artifact.artifactId}-runtime.${artifact.extension}</customClasspathLayout>
                                 </manifest>
                                 <manifestEntries>
-                                    <Class-Path>${project.artifactId}.jar</Class-Path>
+                                    <Class-Path>${project.artifactId}.jar ${nonBsvrzClasspath}</Class-Path>
                                 </manifestEntries>
                             </archive>
                         </configuration>
@@ -166,11 +168,37 @@
                 <version>2.10</version>
                 <executions>
                     <execution>
+                        <id>copy-dependencies</id>
                         <goals>
                             <goal>copy-dependencies</goal>
                         </goals>
                         <phase>prepare-package</phase>
                         <configuration>
+                            <excludeGroupIds>
+                                de.bsvrz.dav,
+                                de.bsvrz.kex,
+                                de.bsvrz.ars,
+                                de.bsvrz.dua,
+                                de.bsvrz.iav,
+                                de.bsvrz.ibv,
+                                de.bsvrz.ste,
+                                de.bsvrz.puk,
+                                de.bsvrz.pua,
+                                de.bsvrz.sys,
+                                de.bsvrz.vew,
+                                de.bsvrz.pat
+                            </excludeGroupIds>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>build-non-bsvrz-classpath</id>
+                        <goals>
+                            <goal>build-classpath</goal>
+                        </goals>
+                        <configuration>
+                            <outputProperty>nonBsvrzClasspath</outputProperty>
+                            <prefix>lib</prefix>
+                            <includeScope>runtime</includeScope>
                             <excludeGroupIds>
                                 de.bsvrz.dav,
                                 de.bsvrz.kex,

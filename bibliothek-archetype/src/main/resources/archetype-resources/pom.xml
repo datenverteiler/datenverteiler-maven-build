@@ -99,7 +99,6 @@
                                 </manifestEntries>
                             </archive>
                         </configuration>
-
                     </execution>
                 </executions>
             </plugin>
@@ -152,6 +151,34 @@
                             <descriptorRefs>
                                 <descriptorRef>distributionspaket</descriptorRef>
                             </descriptorRefs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.10</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <excludeGroupIds>
+                                de.bsvrz.dav,
+                                de.bsvrz.kex,
+                                de.bsvrz.ars,
+                                de.bsvrz.dua,
+                                de.bsvrz.iav,
+                                de.bsvrz.ibv,
+                                de.bsvrz.ste,
+                                de.bsvrz.puk,
+                                de.bsvrz.pua,
+                                de.bsvrz.sys,
+                                de.bsvrz.vew,
+                                de.bsvrz.pat
+                            </excludeGroupIds>
                         </configuration>
                     </execution>
                 </executions>

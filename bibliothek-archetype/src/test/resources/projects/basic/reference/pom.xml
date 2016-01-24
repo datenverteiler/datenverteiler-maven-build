@@ -16,6 +16,7 @@
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
         <kernsoftware.version>3.6.5</kernsoftware.version>
         <distributionspaket.status>Beta</distributionspaket.status>
+        <distributionspaket.lizenz>LGPLv3</distributionspaket.lizenz>
     </properties>
 
     <licenses>
@@ -126,7 +127,7 @@
                             <finalName>SWE_${project.artifactId}_${distributionspaket.status}_V${project.version}_D${maven.build.timestamp}</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptorRefs>
-                                <descriptorRef>distributionspaket-bibliothek</descriptorRef>
+                                <descriptorRef>distributionspaket</descriptorRef>
                             </descriptorRefs>
                         </configuration>
                     </execution>

@@ -6,12 +6,6 @@
         <format>zip</format>
     </formats>
     <baseDirectory>${project.artifactId}</baseDirectory>
-    <files>
-        <file>
-            <source>LICENSE.txt</source>
-            <destName>${project.artifactId}-LGPL-lizenz.txt</destName>
-        </file>
-    </files>
     <componentDescriptors>
         <componentDescriptor>assemblies/distributionspaket-bin.xml</componentDescriptor>
         <componentDescriptor>assemblies/distributionspaket-test.xml</componentDescriptor>

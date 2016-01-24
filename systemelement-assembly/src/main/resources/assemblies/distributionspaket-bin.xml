@@ -13,6 +13,10 @@
             <destName>${project.artifactId}-Build-Report.txt</destName>
         </file>
         <file>
+            <source>LICENSE.txt</source>
+            <destName>${project.artifactId}-${distributionspaket.lizenz}-lizenz.txt</destName>
+        </file>
+        <file>
             <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
             <destName>${project.artifactId}.jar</destName>
         </file>

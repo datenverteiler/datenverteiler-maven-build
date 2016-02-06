@@ -15,7 +15,7 @@ Offene Punkte
 
 - [X] Site
 - [X] Findbugs
-- [ ] JDepend
+- [X] JDepend
 - [ ] Taglist
 - [ ] Changes
 - [ ] Checkstyle

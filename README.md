@@ -16,7 +16,7 @@ Offene Punkte
 - [X] Findbugs
 - [X] BND und Osgi
 - [X] JavaDoc Design (bis private)
-- [ ] JavaDoc: Overview, Title usw.
+- [X] JavaDoc: Overview
 
 **Reports**
 

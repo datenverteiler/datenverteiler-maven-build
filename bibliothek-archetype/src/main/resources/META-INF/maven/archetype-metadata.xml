@@ -38,6 +38,7 @@
             <directory></directory>
             <includes>
                 <include>README.md</include>
+                <include>bnd.bnd</include>
             </includes>
         </fileSet>
         <fileSet encoding="UTF-8">

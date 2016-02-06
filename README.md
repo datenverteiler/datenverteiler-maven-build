@@ -25,7 +25,7 @@ Offene Punkte
 - [X] JDepend
 - [X] Taglist
 - [X] Changes
-- [ ] Checkstyle
+- [X] Checkstyle
 - [ ] Site: GitHub Fork Me
 - [ ] Site: Abhängigkeiten
 - [ ] Site: Main-Klasse

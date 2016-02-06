@@ -29,22 +29,13 @@
             </includes>
         </fileSet>
         <fileSet filtered="true" encoding="UTF-8">
-            <directory>src/changes</directory>
-            <includes>
-                <include>changes.xml</include>
-            </includes>
-        </fileSet>
-        <fileSet filtered="true" encoding="UTF-8">
             <directory></directory>
             <includes>
                 <include>README.md</include>
-                <include>bnd.bnd</include>
-            </includes>
-        </fileSet>
-        <fileSet encoding="UTF-8">
-            <directory></directory>
-            <includes>
                 <include>LICENSE.txt</include>
+                <include>bnd.bnd</include>
+                <include>src/changes/*</include>
+                <include>src/main/config/*</include>
             </includes>
         </fileSet>
     </fileSets>

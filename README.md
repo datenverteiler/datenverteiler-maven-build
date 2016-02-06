@@ -14,7 +14,7 @@ Offene Punkte
 **Reports**
 
 - [X] Site
-- [ ] Findbugs
+- [X] Findbugs
 - [ ] JDepend
 - [ ] Taglist
 - [ ] Changes
@@ -30,7 +30,7 @@ Offene Punkte
 
 **Build**
 
-- [ ] Findbugs
+- [X] Findbugs
 - [ ] BND und Osgi
 - [ ] JavaDoc Design (bis private)
 - [ ] JavaDoc: Overview, Title usw.

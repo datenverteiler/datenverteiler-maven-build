@@ -37,11 +37,11 @@ public class Applikation implements StandardApplication {
     }
 
     public void parseArguments(ArgumentList argumentList) throws Exception {
-        // TODO
+        // TODO Methode parseArguments implementieren
     }
 
     public void initialize(ClientDavInterface connection) throws Exception {
-        // TODO
+        // TODO Methode initialize implementieren
 
         System.out.println("Hallo Datenverteiler!");
     }

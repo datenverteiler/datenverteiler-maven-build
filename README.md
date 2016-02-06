@@ -11,12 +11,19 @@ Stellt Maven-Plug-ins für die Entwicklung von SW-Einheiten bereit.
 Offene Punkte
 -------------
 
+**Build**
+
+- [X] Findbugs
+- [ ] BND und Osgi
+- [ ] JavaDoc Design (bis private)
+- [ ] JavaDoc: Overview, Title usw.
+
 **Reports**
 
 - [X] Site
 - [X] Findbugs
 - [X] JDepend
-- [ ] Taglist
+- [X] Taglist
 - [ ] Changes
 - [ ] Checkstyle
 - [ ] Site: GitHub Fork Me
@@ -27,10 +34,3 @@ Offene Punkte
 - [ ] Site: Onlineparamter
 - [ ] Site: Tutorial
 - [ ] Site: FAQ
-
-**Build**
-
-- [X] Findbugs
-- [ ] BND und Osgi
-- [ ] JavaDoc Design (bis private)
-- [ ] JavaDoc: Overview, Title usw.

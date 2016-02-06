@@ -23,7 +23,7 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 /**
- * Integrationstest für Applikation.
+ * Integrationstests für Applikation.
  *
  * <p>Enthält die Tests für Funktionen der Applikation (SW-Einheit). Ein Integrationtest testet das Zusammenspiel
  * mehrere SW-Komponenten und/oder SW-Module.</p>
@@ -34,7 +34,7 @@ public class ApplikationIT {
 
     @Test
     public void testFunktion() {
-        // TODO
+        // TODO Integrationstests schreiben
         assertTrue(true);
     }
 

@@ -23,7 +23,7 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 /**
- * Unittest für Bibliothek.
+ * Komponententests für Bibliothek.
  *
  * @author Datenverteiler, Falko Schumann
  */
@@ -38,7 +38,7 @@ public class BibliothekTest {
 
     @Test
     public void testBegruessung() {
-        // TODO
+        // TODO Komponententests schreiben
         assertEquals("Hallo Datenverteiler!", bibliothek.begruessung());
     }
 

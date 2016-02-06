@@ -33,6 +33,10 @@
             <destName>${project.artifactId}-doc-api.zip</destName>
         </file>
         <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}-design-javadoc.jar</source>
+            <destName>${project.artifactId}-doc-design.zip</destName>
+        </file>
+        <file>
             <source>${project.build.directory}/${project.artifactId}-${project.version}-sources.jar</source>
             <destName>${project.artifactId}-src.zip</destName>
         </file>

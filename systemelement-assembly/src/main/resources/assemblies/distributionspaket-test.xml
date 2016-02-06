@@ -11,6 +11,10 @@
             <destName>${project.artifactId}-test-doc-api.zip</destName>
         </file>
         <file>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}-test-design-javadoc.jar</source>
+            <destName>${project.artifactId}-test-doc-design.zip</destName>
+        </file>
+        <file>
             <source>${project.build.directory}/${project.artifactId}-${project.version}-test-sources.jar</source>
             <destName>${project.artifactId}-test-src.zip</destName>
         </file>

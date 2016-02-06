@@ -39,6 +39,7 @@ public class BibliothekTest {
         bibliothek = new Bibliothek();
     }
 
+    @Test
     public void testBegruessung() {
         // TODO
         assertEquals("Hallo Datenverteiler!", bibliothek.begruessung());

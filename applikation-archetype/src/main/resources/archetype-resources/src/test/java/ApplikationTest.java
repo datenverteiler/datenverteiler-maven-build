@@ -23,6 +23,8 @@ package ${package};
 
 import static org.junit.Assert.*;
 
+import org.junit.*;
+
 /**
  * Unittest für ${applikationName}.
  *
@@ -30,6 +32,7 @@ import static org.junit.Assert.*;
  */
 public class ApplikationTest {
 
+    @Test
     public void testApplikation() {
         // TODO
         assertTrue(true);

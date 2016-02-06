@@ -20,6 +20,8 @@ package it.archetype.segment.sweinheit.swkomponente.swmodul;
 
 import static org.junit.Assert.*;
 
+import org.junit.*;
+
 /**
  * Unittest für Applikation.
  *
@@ -27,6 +29,7 @@ import static org.junit.Assert.*;
  */
 public class ApplikationTest {
 
+    @Test
     public void testApplikation() {
         // TODO
         assertTrue(true);

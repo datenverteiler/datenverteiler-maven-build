@@ -26,14 +26,17 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 /**
- * Unittest für ${applikationName}.
+ * Integrationstest für ${applikationName}.
  *
- * @author Datenverteiler, Falko Schumann
+ * <p>Enthält die Tests für Funktionen der Applikation (SW-Einheit). Ein Integrationtest testet das Zusammenspiel
+ * mehrere SW-Komponenten und/oder SW-Module.</p>
+ *
+ * @author Datenverteiler, Max Mustermann
  */
-public class ApplikationTest {
+public class ApplikationIT {
 
     @Test
-    public void testApplikation() {
+    public void testFunktion() {
         // TODO
         assertTrue(true);
     }

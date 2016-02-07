@@ -33,4 +33,4 @@ Offene Punkte
 - [X] Site: Onlineparameter
 - [X] Site: Onlinedaten
 - [X] Site: Beispiele
-- [ ] Site: FAQ (Diagnosehandbuch)
+- [X] Site: FAQ (Diagnosehandbuch)

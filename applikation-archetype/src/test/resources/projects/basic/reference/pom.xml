@@ -16,7 +16,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
         <kernsoftware.version>3.6.5</kernsoftware.version>
-        <distributionspaket.status>Beta</distributionspaket.status>
+        <distributionspaket.status>BETA</distributionspaket.status>
         <distributionspaket.standDatum>${maven.build.timestamp}</distributionspaket.standDatum>
         <distributionspaket.lizenz>GPLv3</distributionspaket.lizenz>
     </properties>

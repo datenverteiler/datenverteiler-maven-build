@@ -27,10 +27,10 @@ Offene Punkte
 - [X] Changes
 - [X] Checkstyle
 - [X] Site: GitHub Fork Me
-- [ ] Site: Abhängigkeiten
-- [ ] Site: Main-Klasse
-- [ ] Site: Aufrufparameter
-- [ ] Site: Konfiguration
-- [ ] Site: Onlineparamter
-- [ ] Site: Tutorial
-- [ ] Site: FAQ
+- [X] Site: Abhängigkeiten
+- [X] Site: Main-Klasse(n) mit Aufrufparameter
+- [X] Site: Konfiguration
+- [X] Site: Onlineparameter
+- [X] Site: Onlinedaten
+- [X] Site: Beispiele
+- [ ] Site: FAQ (Diagnosehandbuch)

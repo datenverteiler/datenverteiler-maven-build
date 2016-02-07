@@ -34,11 +34,11 @@
                 <include>README.md</include>
                 <include>LICENSE.txt</include>
                 <include>bnd.bnd</include>
-                <include>src/changes/*</include>
-                <include>src/main/config/*</include>
-                <include>src/main/javadoc/*</include>
-                <include>src/site/*</include>
-                <include>src/test/javadoc/*</include>
+                <include>src/changes/**</include>
+                <include>src/main/config/**</include>
+                <include>src/main/javadoc/**</include>
+                <include>src/site/**</include>
+                <include>src/test/javadoc/**</include>
             </includes>
         </fileSet>
     </fileSets>

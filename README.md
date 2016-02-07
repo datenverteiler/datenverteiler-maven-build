@@ -26,7 +26,7 @@ Offene Punkte
 - [X] Taglist
 - [X] Changes
 - [X] Checkstyle
-- [ ] Site: GitHub Fork Me
+- [X] Site: GitHub Fork Me
 - [ ] Site: Abhängigkeiten
 - [ ] Site: Main-Klasse
 - [ ] Site: Aufrufparameter

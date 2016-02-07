@@ -1,0 +1,5 @@
+-exportcontents: \
+    ${package}
+-sources: true
+
+Bundle-Name: ${bibliothekName}

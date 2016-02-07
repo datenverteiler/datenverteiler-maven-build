@@ -1,0 +1,5 @@
+-exportcontents: \
+    it.archetype.segment.sweinheit.swkomponente.swmodul
+-sources: true
+
+Bundle-Name: Bibliothek

@@ -1,4 +1,4 @@
-Applikation
+Applikation [![Build Status](https://travis-ci.org/datenverteiler/it.archetype.segment.sweinheit.svg?branch=master)](https://travis-ci.org/datenverteiler/it.archetype.segment.sweinheit)
 ==================
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.

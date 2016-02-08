@@ -16,7 +16,7 @@
 
     <name>Datenverteiler-Maven-Build</name>
     <description>Fasst Maven-Plug-ins für den Build von Datenverteiler-Projekte zusammen.</description>
-    <url>https://github.com/datenverteiler/datenverteiler-maven-build</url>
+    <url>https://github.com/datenverteiler/${project.artifactId}/</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,9 +51,19 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/datenverteiler/datenverteiler-maven-build.git</connection>
-        <developerConnection>scm:git:https://github.com/datenverteiler/datenverteiler-maven-build.git</developerConnection>
-        <url>https://github.com/datenverteiler/datenverteiler-maven-build</url>
+        <connection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:https://github.com/datenverteiler/${project.artifactId}.git</developerConnection>
+        <url>https://github.com/datenverteiler/${project.artifactId}</url>
     </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/datenverteiler/${project.artifactId}/</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Travis-CI</system>
+        <url>https://travis-ci.org/datenverteiler/${project.artifactId}/</url>
+    </ciManagement>
 
 </project>

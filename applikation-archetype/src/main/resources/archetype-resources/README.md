@@ -1,4 +1,4 @@
-${applikationName}
+${applikationName} [![Build Status](https://travis-ci.org/datenverteiler/${artifactId}.svg?branch=master)](https://travis-ci.org/datenverteiler/${artifactId})
 ==================
 
 ${applikationKurzInfo}

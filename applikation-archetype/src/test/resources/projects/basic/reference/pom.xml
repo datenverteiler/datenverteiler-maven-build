@@ -9,7 +9,7 @@
 
     <name>Applikation</name>
     <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</description>
-    <url>http://datenverteiler.github.io/it.archetype.segment.sweinheit/</url>
+    <url>http://datenverteiler.github.io/${project.artifactId}/</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,7 +18,7 @@
         <kernsoftware.version>3.6.5</kernsoftware.version>
         <distributionspaket.status>BETA</distributionspaket.status>
         <distributionspaket.standDatum>${maven.build.timestamp}</distributionspaket.standDatum>
-        <distributionspaket.lizenz>GPLv3</distributionspaket.lizenz>
+        <distributionspaket.lizenz>GPLv3.0</distributionspaket.lizenz>
     </properties>
 
     <licenses>
@@ -48,6 +48,11 @@
         <system>GitHub</system>
         <url>https://github.com/datenverteiler/${project.artifactId}/</url>
     </issueManagement>
+
+    <ciManagement>
+        <system>Travis-CI</system>
+        <url>https://travis-ci.org/datenverteiler/${project.artifactId}/</url>
+    </ciManagement>
 
     <dependencies>
         <dependency>

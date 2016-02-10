@@ -26,7 +26,7 @@
             <destName>${project.artifactId}.jar</destName>
         </file>
         <file>
-            <source>${project.build.directory}/${project.artifactId}-${project.version}-runtime-jar.jar</source>
+            <source>${project.build.directory}/${project.artifactId}-${project.version}-runtime.jar</source>
             <destName>${project.artifactId}-runtime.jar</destName>
         </file>
         <file>

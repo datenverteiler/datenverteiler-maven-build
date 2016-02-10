@@ -103,6 +103,7 @@
                 <version>2.6</version>
                 <executions>
                     <execution>
+                        <id>default-jars</id>
                         <goals>
                             <goal>jar</goal>
                             <goal>test-jar</goal>
@@ -122,9 +123,9 @@
                                 <manifest>
                                     <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                                     <addClasspath>true</addClasspath>
-                                    <mainClass>it.archetype.segment.sweinheit.swkomponente.swmodul.Applikation</mainClass>
                                     <classpathLayoutType>custom</classpathLayoutType>
                                     <customClasspathLayout>../${artifact.artifactId}/${artifact.artifactId}-runtime.${artifact.extension}</customClasspathLayout>
+                                    <mainClass>${package}.Applikation</mainClass>
                                 </manifest>
                                 <manifestEntries>
                                     <Class-Path>${project.artifactId}.jar ${nonBsvrzClasspath}</Class-Path>

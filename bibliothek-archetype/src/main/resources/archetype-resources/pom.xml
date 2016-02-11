@@ -118,7 +118,6 @@
                             <goal>jar</goal>
                         </goals>
                         <configuration>
-                            <useDefaultManifestFile>false</useDefaultManifestFile>
                             <classifier>runtime</classifier>
                             <excludes>
                                 <exclude>**/*</exclude>
@@ -212,6 +211,14 @@
                         <descriptorRef>distributionspaket</descriptorRef>
                     </descriptorRefs>
                 </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

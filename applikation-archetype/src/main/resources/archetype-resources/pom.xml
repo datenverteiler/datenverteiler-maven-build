@@ -103,9 +103,17 @@
                 <version>2.6</version>
                 <executions>
                     <execution>
-                        <id>default-jars</id>
+                        <id>default-jar</id>
                         <goals>
                             <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <useDefaultManifestFile>true</useDefaultManifestFile>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>test-jar</id>
+                        <goals>
                             <goal>test-jar</goal>
                         </goals>
                     </execution>
@@ -209,6 +217,14 @@
                         <descriptorRef>distributionspaket</descriptorRef>
                     </descriptorRefs>
                 </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -294,6 +310,18 @@
                     <execution>
                         <goals>
                             <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>biz.aQute.bnd</groupId>
+                <artifactId>bnd-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bnd-process</goal>
                         </goals>
                     </execution>
                 </executions>

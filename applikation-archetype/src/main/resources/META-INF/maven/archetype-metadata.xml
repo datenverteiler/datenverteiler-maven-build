@@ -34,6 +34,7 @@
                 <include>README.md</include>
                 <include>LICENSE.txt</include>
                 <include>.travis.yml</include>
+                <include>bnd.bnd</include>
                 <include>src/changes/**</include>
                 <include>src/main/config/**</include>
                 <include>src/main/javadoc/**</include>

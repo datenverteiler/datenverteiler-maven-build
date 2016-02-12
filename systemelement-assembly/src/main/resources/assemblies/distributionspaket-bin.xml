@@ -16,6 +16,7 @@
         <file>
             <source>README.md</source>
             <destName>${project.artifactId}-Build-Report.txt</destName>
+            <filtered>true</filtered>
         </file>
         <file>
             <source>LICENSE.txt</source>

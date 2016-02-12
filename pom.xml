@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>systemelement-assembly</module>
         <module>applikation-archetype</module>
         <module>bibliothek-archetype</module>
-        <module>systemelement-assembly</module>
     </modules>
 
     <name>Datenverteiler-Maven-Build</name>

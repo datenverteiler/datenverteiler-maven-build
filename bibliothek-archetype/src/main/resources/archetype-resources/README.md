@@ -1,4 +1,4 @@
-${bibliothekName} [![Build Status](https://travis-ci.org/datenverteiler/${artifactId}.svg?branch=master)](https://travis-ci.org/datenverteiler/${artifactId})
+${bibliothekName} v${project.version} [![Build Status](https://travis-ci.org/datenverteiler/${artifactId}.svg?branch=master)](https://travis-ci.org/datenverteiler/${artifactId})
 =================
 
 ${bibliothekKurzInfo}

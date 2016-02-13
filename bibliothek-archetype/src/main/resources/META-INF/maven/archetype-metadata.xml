@@ -8,12 +8,8 @@
         <requiredProperty key="kernsoftwareVersion">
             <defaultValue>3.6.5</defaultValue>
         </requiredProperty>
-        <requiredProperty key="bibliothekName">
-            <defaultValue>Applikation</defaultValue>
-        </requiredProperty>
-        <requiredProperty key="bibliothekKurzInfo">
-            <defaultValue>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</defaultValue>
-        </requiredProperty>
+        <requiredProperty key="bibliothekName"/>
+        <requiredProperty key="bibliothekKurzInfo"/>
     </requiredProperties>
     <fileSets>
         <fileSet filtered="true" packaged="true" encoding="UTF-8">

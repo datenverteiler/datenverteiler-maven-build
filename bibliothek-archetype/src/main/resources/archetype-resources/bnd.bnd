@@ -1,5 +1,4 @@
--exportcontents: \
-    ${package}
+-exportcontents: ${package}.*
 -sources: true
 
 Bundle-Name: ${bibliothekName}

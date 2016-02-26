@@ -6,7 +6,7 @@ SW-Komponenten und SW-Module) bereit.
 
 -   [Archetype (Projektvorlage) für eine Applikation](datenverteiler-archetype-applikation/README.md)
 -   [Archetype (Projektvorlage) für eine Bibliothek](datenverteiler-archetype-bibliothek/README.md)
--   [Assembly (Packliste) zum Erzeugen eines Distributionspakets](datenverteiler-assembly-systemelement/README.md)
+-   [Assembly (Packliste) zum Erzeugen eines Distributionspakets](datenverteiler-assembly/README.md)
 
 
 ---

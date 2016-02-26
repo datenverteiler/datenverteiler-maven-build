@@ -11,7 +11,7 @@
     <modules>
         <module>datenverteiler-archetype-applikation</module>
         <module>datenverteiler-archetype-bibliothek</module>
-        <module>datenverteiler-assembly-systemelement</module>
+        <module>datenverteiler-assembly</module>
     </modules>
 
     <name>Datenverteiler-Maven-Build</name>

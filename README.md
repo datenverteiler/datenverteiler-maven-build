@@ -4,9 +4,9 @@ Datenverteiler-Maven-Build [![Build Status](https://travis-ci.org/datenverteiler
 Stellt Maven-Plug-ins für die Entwicklung von Systemelementen (SW-Einheiten,
 SW-Komponenten und SW-Module) bereit.
 
--   [Archetype (Projektvorlage) für eine Applikation](applikation-archetype/README.md)
--   [Archetype (Projektvorlage) für eine Bibliothek](bibliothek-archetype/README.md)
--   [Assembly (Packliste) zum Erzeugen eines Distributionspakets](systemelement-assembly/README.md)
+-   [Archetype (Projektvorlage) für eine Applikation](datenverteiler-archetype-applikation/README.md)
+-   [Archetype (Projektvorlage) für eine Bibliothek](datenverteiler-archetype-bibliothek/README.md)
+-   [Assembly (Packliste) zum Erzeugen eines Distributionspakets](datenverteiler-assembly-systemelement/README.md)
 
 
 ---

@@ -1,5 +1,5 @@
-Systemelement-Assembly
-======================
+Datenverteiler-Assembly Systemelement
+=====================================
 
 Dieses Maven-Plug-in stellt Assemblies zum Packen von Systemelementen bereit.
 

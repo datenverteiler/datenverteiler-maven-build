@@ -10,8 +10,8 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>systemelement-assembly</artifactId>
-    <name>Systemelement-Assembly</name>
-    <description>Assembly zum Erzeugen eines Distributionspakets zu einem Systemelement.</description>
+    <artifactId>datenverteiler-assembly-systemelement</artifactId>
+    <name>Datenverteiler-Assembly Systemelement</name>
+    <description>Datenverteiler-Assembly zum Erzeugen eines Distributionspakets zu einem Systemelement.</description>
 
 </project>

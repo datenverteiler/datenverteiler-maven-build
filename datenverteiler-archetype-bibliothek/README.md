@@ -1,7 +1,7 @@
-Applikation-Archetype
-=====================
+Datenverteiler-Archetype Bibliothek
+===================================
 
-Dieser Archetype erzeugt den Prototyp einer Applikation.
+Dieser Archetype erzeugt den Prototyp einer Datenverteilerbibliothek.
 
 
 ---

@@ -16,6 +16,13 @@
     <name>Datenverteiler-Archetype Applikation</name>
     <description>Dieser Archetype erzeugt den Prototyp einer Datenverteilerapplikation.</description>
 
+    <licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
     <dependencies>
         <dependency>
             <groupId>com.github.datenverteiler</groupId>

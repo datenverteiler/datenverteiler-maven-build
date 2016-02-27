@@ -13,8 +13,15 @@
     <artifactId>datenverteiler-archetype-bibliothek</artifactId>
     <packaging>maven-archetype</packaging>
 
-    <name>DAtenverteiler-Archetype Bibliothek</name>
+    <name>Datenverteiler-Archetype Bibliothek</name>
     <description>Dieser Archetype erzeugt den Prototyp einer Datenverteilerbibliothek.</description>
+
+    <licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
 
     <dependencies>
         <dependency>

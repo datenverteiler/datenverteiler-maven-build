@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.github.datenverteiler</groupId>
-        <artifactId>datenverteiler-maven-build</artifactId>
+        <artifactId>datenverteiler-maven-plugins</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 

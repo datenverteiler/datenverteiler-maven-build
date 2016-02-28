@@ -1,4 +1,4 @@
-Datenverteiler-Maven-Build [![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-maven-plugins.svg?branch=develop)](https://travis-ci.org/datenverteiler/datenverteiler-maven-plugins)
+Datenverteiler-Maven-Build [![Build Status](https://travis-ci.org/datenverteiler/datenverteiler-maven-plugins.svg?branch=master)](https://travis-ci.org/datenverteiler/datenverteiler-maven-plugins)
 ==========================
 
 Stellt Maven-Plug-ins für die Entwicklung von Systemelementen (SW-Einheiten,

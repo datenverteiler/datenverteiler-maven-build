@@ -54,6 +54,42 @@
         <url>https://travis-ci.org/datenverteiler/${project.artifactId}/</url>
     </ciManagement>
 
+    <profiles>
+        <profile>
+            <id>bintray</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>bintray-datenverteiler-maven</id>
+                    <name>bintray</name>
+                    <url>http://dl.bintray.com/datenverteiler/maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>bintray-datenverteiler-maven</id>
+                    <name>bintray-plugins</name>
+                    <url>http://dl.bintray.com/datenverteiler/maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <distributionManagement>
+                <repository>
+                    <id>bintray-datenverteiler-maven</id>
+                    <name>datenverteiler-maven</name>
+                    <url>https://api.bintray.com/maven/datenverteiler/maven/${project.artifactId}/;publish=1</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
+
     <dependencies>
         <dependency>
             <groupId>de.bsvrz.dav</groupId>

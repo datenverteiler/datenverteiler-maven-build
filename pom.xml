@@ -5,7 +5,7 @@
 
     <groupId>com.github.datenverteiler</groupId>
     <artifactId>datenverteiler-maven-plugins</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -22,18 +22,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
-
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.archetype</groupId>
-                    <artifactId>maven-archetype-plugin</artifactId>
-                    <version>2.4</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 
     <developers>
         <developer>
@@ -65,5 +53,66 @@
         <system>Travis-CI</system>
         <url>https://travis-ci.org/datenverteiler/${project.artifactId}/</url>
     </ciManagement>
+
+    <profiles>
+        <profile>
+            <id>bintray</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>bintray-datenverteiler-maven</id>
+                    <name>bintray</name>
+                    <url>http://dl.bintray.com/datenverteiler/maven</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>bintray-datenverteiler-maven</id>
+                    <name>bintray-plugins</name>
+                    <url>http://dl.bintray.com/datenverteiler/maven</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <distributionManagement>
+                <repository>
+                    <id>bintray-datenverteiler-maven</id>
+                    <name>datenverteiler-maven</name>
+                    <url>https://api.bintray.com/maven/datenverteiler/maven/datenverteiler-maven-plugins/;publish=1</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.archetype</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>2.4</version>
+                    <configuration>
+                        <ignoreEOLStyle>true</ignoreEOLStyle>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

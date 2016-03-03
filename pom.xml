@@ -84,7 +84,7 @@
                 <repository>
                     <id>bintray-datenverteiler-maven</id>
                     <name>datenverteiler-maven</name>
-                    <url>https://api.bintray.com/maven/datenverteiler/maven/${project.artifactId}/;publish=1</url>
+                    <url>https://api.bintray.com/maven/datenverteiler/maven/datenverteiler-maven-plugins/;publish=1</url>
                 </repository>
             </distributionManagement>
         </profile>

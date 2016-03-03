@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/datenverteiler/it.archetype.segment.sweinheit.svg?branch=master)](https://travis-ci.org/datenverteiler/it.archetype.segment.sweinheit)
+[![Build Status](https://travis-ci.org/datenverteiler/it.archetype.segment.sweinheit.svg?branch=develop)](https://travis-ci.org/datenverteiler/it.archetype.segment.sweinheit)
 [![Build Status](https://api.bintray.com/packages/datenverteiler/maven/it.archetype.segment.sweinheit/images/download.svg)](https://bintray.com/datenverteiler/maven/it.archetype.segment.sweinheit)
 
 Bibliothek v${project.version}

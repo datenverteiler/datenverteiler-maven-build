@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/datenverteiler/${artifactId}.svg?branch=master)](https://travis-ci.org/datenverteiler/${artifactId})
+[![Build Status](https://travis-ci.org/datenverteiler/${artifactId}.svg?branch=develop)](https://travis-ci.org/datenverteiler/${artifactId})
 [![Build Status](https://api.bintray.com/packages/datenverteiler/maven/${artifactId}/images/download.svg)](https://bintray.com/datenverteiler/maven/${artifactId})
 
 ${applikationName} v${project.version}

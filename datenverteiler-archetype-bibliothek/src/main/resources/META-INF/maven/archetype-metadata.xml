@@ -28,6 +28,7 @@
             <directory></directory>
             <includes>
                 <include>README.md</include>
+                <include>CHANGELOG.md</include>
                 <include>LICENSE.txt</include>
                 <include>.travis.yml</include>
                 <include>bnd.bnd</include>
